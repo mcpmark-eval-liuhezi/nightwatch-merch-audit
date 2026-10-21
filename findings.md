@@ -67,7 +67,7 @@ Prices captured live from the Amazon product pages themselves (not search snippe
 
 - **Repository:** [mcpmark-eval-liuhezi/nightwatch-merch-audit](https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit)
 - **Parent issue:** [#1 — Merch audit: The Night Watch](https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit/issues/1)
-- **Pull request:** See PR opening this `findings.md` (branch `audit-findings` → `main`).
+- **Pull request:** [#6 — Findings: Night Watch merch audit](https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit/pull/6) (branch `audit-findings` → `main`)
 - **What was cut:** "The Night's Watch, by Rembrandt — Famous Oil Paintings Poster (12x16in, Unframed)" (ASIN B0DGC1CZ2B) — its sub-issue was removed from parent issue #1 and a comment naming the product and the reason was posted on the parent.
 - **Sub-issues created:** #2 (generic poster — cut), #3 (ARTCANVAS canvas), #4 (Posterazzi licensed poster), #5 (1000-piece puzzle)
 - **Sub-issues still linked to parent #1:** #3, #4, #5
