@@ -1,74 +1,43 @@
-# Merch Audit Findings: The Night Watch
+# Findings: Night Watch Merchandise Market Audit
 
-Research tracker for the newsletter piece on whether museum blockbusters translate into a healthy merchandise market — subject: Rembrandt's *The Night Watch* (Rijksmuseum, SK-C-5).
+**Project:** nightwatch-merch-audit · **Object:** Rembrandt's *The Night Watch* (Rijksmuseum SK-C-5) — official title *The Night Watch Militia Company of District II under the Command of Captain Frans Banninck Cocq* · **Source:** Rijksmuseum collection record (SK-C-5) + Amazon US product pages (data pulled 2026-10-30)
 
----
+## 1. Artwork record (Rijksmuseum collection)
 
-## 1. Artwork Record
+| Field | Value |
+|---|---|
+| Title | *The Night Watch Militia Company of District II under the Command of Captain Frans Banninck Cocq* (also known as "De Nachtwacht" / "The Night Watch") |
+| Object number | SK-C-5 |
+| Maker | Rembrandt van Rijn (painter, Amsterdam) |
+| Dating | 1642 (signed and dated "Rembrandt f 1642") |
+| Type | Painting |
+| Physical characteristics | Oil on canvas |
+| Dimensions | height 379.5 cm x width 453.5 cm (weight 337 kg / 170 kg) |
+| Current location | On display in the Night Watch Gallery, Rijksmuseum, Amsterdam |
+| Collection URL | https://www.rijksmuseum.nl/en/collection/SK-C-5 |
 
-**Painting:** The Night Watch — Militia Company of District II under the Command of Captain Frans Banninck Cocq
-**Official (original) title:** Het korporaalschap van kapitein Frans Banninck Cocq en luitenant Willem van Ruytenburch, bekend als de 'Nachtwacht'
-**Object number:** SK-C-5
-**Artist:** Rembrandt van Rijn
-**Dating:** 1642
-**Technique / materials:** Oil on canvas
-**Dimensions:** 379.5 cm (h) × 453.5 cm (w); weight 337 kg
-**Current location:** On display in the Night Watch Gallery, Rijksmuseum, Amsterdam
-**Collection record URI:** https://id.rijksmuseum.nl/200107928
+**Position in Rembrandt's career:** the Night Watch (1642) is Rembrandt's largest and most famous canvas and the lynchpin of his Amsterdam peak. It follows the late-1630s civic-guard commissions same collection e.g. *The Stone Bridge* (1638) and *An Oriental* (1635), and the Portrait of Haesje Jacobsdr van Cleyburg (1634), and precedes the monumental late masterpieces still in the museum — *The Syndics* (1662) and *The Jewish Bride* (c. 1665-1669). It is not an early or it late work: it is the single-pair肖像 breakthrough (captain Cocq ordering the company to march; the girl with the dead chicken as the mascot; light used to focus attention) that defines the painting as a turning point in Dutch group-portrait history.
 
-**Career note:** Painted in 1642 — Rembrandt's largest and most famous canvas, executed at the height of his Amsterdam period: it postdates works like "An Oriental" (1635, SK-A-3340) and "The Stone Bridge" (1638, SK-A-1935) and predates the later, darker masterpieces "The Sampling Officials" (1662, SK-C-6) and "The Jewish Bride" (c. 1665, SK-C-216), standing as the turning point between his prosperous middle years and his late period.
+## 2. Amazon product findings (US, prices at time of check)
 
----
+| # | Product (title) | ASIN | Price | Availability | Seller / source |
+|---|---|---|---|---|---|
+| 1 | ARTCANVAS The Night Watch 1642 Canvas Art Print, Stretched Framed Giclee Wall Decor by Rembrandt van Rijn - 40" x 26" (0.75" Deep) | B07DFQDYND | **$91.99** | Only 2 left in stock - order soon | ARTCANVAS (seller); free delivery by Fri Nov 6; 30-day refund/replacement |
+| 2 | The Night Watch Rembrandt Barnwood Wood Framed Print - Painting Replica with Ped, 16"x16" (Barnwood, Charcoal, Black or Walnut) | B097RRYTP4 | **$36.96** | Only 14 left in stock - order soon | Crossroads Home Decor; free delivery Thu Nov 5; 30-day refund/replacement |
+| 3 | The Night Watch by Rembrandt, 1000 Piece Jigsaw Puzzle for Adults (2 mm thick pieces, reference poster included) | B0BMQQQ76N | **$39.99** | Only 1 left in stock - order soon | INFINITE PHOTOGRAPHS via Historic Photographs and Maps (Amazon-fulfilled); Prime eligible; free delivery Sat Nov 7; free 30-day refund/replacement |
+| 4 | ~~CUT~~ Nachtwacht (or The Night Watch) by Rembrandt Famous Fine Art Reproduction - Wood Framed Canvas Art Wall Art - 16" x 16" | B00U1AH89K | $32.99 | In Stock (hanging kit) | wall26 — cut: least faithful to the actual oil on canvas painting (see section 3) |
 
-## 2. Amazon Product Findings
+**Category coverage:** canvas reproductions / giclée wall art (#1, #2) and a puzzle (#3) - covering the two required product kinds (prints/posters and puzzles or canvas reproductions).
 
-Prices captured live from the Amazon product pages themselves (not search snippets) on the research date.
+## 3. Audit trail
 
-### 2.1 Canvas reproduction
+- **Purpose:** track the research trail for the art-newsletter piece on whether museum blockbusters translate into a healthy merchandise market.
+- **Products examined:** 4 Amazon US listings, all pulled from the product pages themselves (not search snippets): #1 ARTCANVAS canvas, #2 Crossroads barnwood framed print, #3 INFINITE PHOTOGRAPHS 1000-piece puzzle, #4 wall26 Nachtwacht print.
+- **Product cut:** #4 - "Nachtwacht (or The Night Watch) by Rembrandt" (ASIN B00U1AH89K, $32.99, wall26, In Stock). **Reason:** least faithful to the actual painting. The page's itself specification data lists paint type "Watercolor," material "Wood," paper finish "Semi-Gloss," theme "Holidays" - inconsistent with Rembrandt's oil on canvas original (SK-C-5). Cut per the audit rule ("unavailable or least faithful to the actual painting").
+- **Parent issue:** #11 "Merch audit: The Night Watch" - artwork facts in the body, plus all four findings and the parent cut note; 1 comment on the parent naming the cut product and why.
+- **Sub-issues linked to parent #11:** #12 ARTCANVAS The Night Watch 1642 Canvas Art Print; #13 The Night Watch Barnwood Framed Print; #14 The Night Watch 1000-Piece Jigsaw Puzzle. (#15 Nachtwacht wall26 print was cut and removed from the parent.)
+- **Write-up branch:** audit-findings -> pull request into main (PR #15).
 
-- **Listing:** ARTCANVAS The Night Watch 1642 Canvas Art Print Stretched Framed Painting Picture Poster Giclee Wall Decor by Rembrandt van Rijn — 40" x 26" (0.75" Deep)
-- **ASIN:** B07DFQDYND
-- **Price:** $91.99 (listed discount from $110.39; FREE delivery)
-- **Availability:** Only 2 left in stock — order soon
-- **Seller:** ARTCANVAS (ships from ARTCANVAS)
-- **Notes:** Hand-crafted, archival Epson fade-resistant inks, artist-grade canvas, American Pine frame, hanging kit included, made in the USA, lifetime manufacturer's warranty. Premium tier of the merch market; premium canvas listings of this painting churn quickly.
+## 4. Why this product was cut
 
-### 2.2 Poster print (licensed)
-
-- **Listing:** Posterazzi The Night Watch 1642 Rembrandt Harmensz van Rijn (1606-1669/Dutch) Oil on canvas Rijksmuseum Amsterdam Poster Print, (24 x 36)
-- **ASIN:** B07GVWHRVC
-- **Price:** $70.66 (FREE delivery)
-- **Availability:** In Stock
-- **Seller:** Posterazzi Corp (licensor: Superstock)
-- **Notes:** Licensed reproduction printed on Premium Heavy Stock Paper with glossy finish; paper size 24.00 × 36.00 in. The most faithful to the original painting in this audit — a licensed reproduction explicitly citing the 1642 oil-on-canvas original at the Rijksmuseum. Delivery by Oct 28.
-
-### 2.3 Jigsaw puzzle
-
-- **Listing:** The Night Watch by Rembrandt Van Rijn 1000 piece Jigsaw Puzzle
-- **ASIN:** B0BMQQQ76N
-- **Price:** $39.99 (FREE delivery)
-- **Availability:** Only 5 left in stock (more on the way)
-- **Seller:** Historic Photographs and Maps (brand: INFINITE PHOTOGRAPHS; Amazon-fulfilled, Prime eligible)
-- **Rating:** 3.3 / 5 (8 reviews)
-- **Notes:** Finished size 27.56 × 19.68 in (70 × 50 cm); 2 mm thick matte anti-glare pieces; full-size reference poster included; ages 16+. Category rank: #245,624 in Toys & Games, #8,637 in Jigsaw Puzzles. Interactive/engagement tier of the merch market.
-
-### 2.4 Examined but cut
-
-- **Listing:** The Night's Watch, by Rembrandt — Famous Oil Paintings Poster Canvas Image Printing Wall Art Decor (12x16inch-Unframed)
-- **ASIN:** B0DGC1CZ2B
-- **Price:** $14.00 (plus $9.15 delivery)
-- **Availability:** In Stock
-- **Seller:** "yan hua Flower pot poster" (generic brand)
-- **Notes:** Zero reviews, bottom-tier sales rank (#8,659,886 in Home & Kitchen), slow delivery (Oct 30 – Nov 10). Unlicensed generic listing with a garbled title ("The Night's Watch" rather than "The Night Watch") and no attribution to the Rijksmuseum or any licensor.
-
----
-
-## 3. Audit Trail
-
-- **Repository:** [mcpmark-eval-liuhezi/nightwatch-merch-audit](https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit)
-- **Parent issue:** [#1 — Merch audit: The Night Watch](https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit/issues/1)
-- **Pull request:** [#6 — Findings: Night Watch merch audit](https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit/pull/6) (branch `audit-findings` → `main`)
-- **What was cut:** "The Night's Watch, by Rembrandt — Famous Oil Paintings Poster (12x16in, Unframed)" (ASIN B0DGC1CZ2B) — its sub-issue was removed from parent issue #1 and a comment naming the product and the reason was posted on the parent.
-- **Sub-issues created:** #2 (generic poster — cut), #3 (ARTCANVAS canvas), #4 (Posterazzi licensed poster), #5 (1000-piece puzzle)
-- **Sub-issues still linked to parent #1:** #3, #4, #5
-- **Cut rationale:** The generic poster is the least faithful to the actual painting — an unlicensed, generic-brand listing with a garbled title, zero reviews, a bottom-tier sales rank, and no museum/licensor attribution, unlike the licensed and premium listings that reproduce the complete painting accurately.
+#4 (wall26 Nachtwacht print) was cut. It was In Stock - the "unavailable" side of the cut criterion was not the trigger - but it failed the fidelity test decisively: its own product specifications declare it a "watercolor print" tagged "Holidays," which is a mismarked generic print presented as a Rembrandt reproduction rather than a faithful copy of the oil on canvas original that the Rijksmuseum actually holds (SK-C-5).
