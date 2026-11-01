@@ -16,30 +16,31 @@ Art newsletter research trail: Rijksmuseum SK-C-5 (Rembrandt's Night Watch) artw
 
 ### Career context — one-line note
 
-The Night Watch (1642) is Rembrandt's largest and most famous canvas, painted at the height of his Amsterdam reputational peak, midway between his early Leiden-era history pieces (e.g. the allegorical *Music Company*, 1626) and his late masterworks such as *The Sampling Officials* (1662) and *The Jewish Bride* (c. 1665–1669).
+The Night Watch (1642) is Rembrandt's largest and most famous canvas, painted at the height of his Amsterdam reputational peak, midway between his early history pieces (e.g. the allegorical Music Company, 1626) and his late masterworks such as The Sampling Officials (1662) and The Jewish Bride (c. 1665–1669).
 
-Sources: Rijksmuseum collection API record for SK-C-5 ( https://id.rijksmuseum.nl/200107928 ) and collection page https://www.rijksmuseum.nl/en/collection/SK-C-5.
+Sources: Rijksmuseum collection API record for SK-C-5 (https://id.rijksmuseum.nl/200107928) and collection page https://www.rijksmuseum.nl/en/collection/SK-C-5.
 
 ## 2. Product findings with prices (Amazon US, prices read from product pages)
 
 | # | Product | ASIN | Listing title | Current price | Availability | Seller / notes |
 |---|---------|------|---------------|---------------|--------------|----------------|
-| 1 | ARTCANVAS canvas reproduction | B07CX7N2TJ | ARTCANVAS The Return of the Prodigal Son 1669 Canvas Art Print Stretched Framed Painting Picture Poster Giclee Wall Decor by Rembrandt van Rijn - 26" x 18" (0.75" Deep) | $64.99 | In stock — buy box $64.99 (NEW), Amazon's Choice badge, 4.7★ (93 ratings); free delivery; 30-day refund/replacement | ARTCANVAS (seller_id A2ZTFYORSYOG9); ships from and sold by ARTCANVAS; Made in USA; ready-to-hang with hanging kit; lifetime manufacturer's warranty; archival Epson fade-resistant inks |
-| 2 | ARTCANVAS canvas reproduction | B07DJP87L7 | ARTCANVAS The Apostle Paul in Prison 1627 Canvas Art Print Stretched Framed Painting Picture Poster Giclee Wall Decor by Rembrandt van Rijn - 18" x 18" (0.75" Deep) | $59.99 | In stock — buy box $59.99 (NEW); 30-day refund/replacement; free delivery | ARTCANVAS (seller_id A2ZTFYORSYOG9); ships from and sold by ARTCANVAS; Made in USA; ready-to-hang with hanging kit; lifetime manufacturer's warranty; archival Epson fade-resistant inks |
-| 3 | MyPuzzle jigsaw puzzle | B0BFVYLRCK | MyPuzzle.com 1000-piece jigsaw puzzle (design by IgorZh / Shutterstock; reference poster approx. 13" × 17.5") | $39.99 | In stock; buy box by MyPuzzle LLC (seller_id A1VIZ6KNY2RFWU); ships from and sold by MyPuzzle LLC; FREE 30-day refund/replacement; free delivery Thu Nov 5 (Prime: tomorrow Nov 1) | MyPuzzle LLC; produced and shipped directly from the US; genuine blue puzzle cardboard ~0.08" thick; 1000 pieces; finished 19.25" × 26.625"; piece size ~1.2" × 0.8"; 25+ years producing board games, playing cards and puzzles |
+| 1 | Infinite Photographs jigsaw puzzle | B0BMQQQ76N | The Night Watch by Rembrandt, 1000 piece Jigsaw Puzzle for Adults \| Dramatic lighting, expressive figures and intricate clothing give art lovers plenty to explore (INFINITE PHOTOGRAPHS brand) | $39.99 | **Only 1 left in stock - order soon.** FREE delivery Thursday Nov 5; Prime members Tue Nov 3. FREE 30-day refund/replacement. | Sold and shipped by Historic Photographs and Maps (seller ID A3U2E3FF9HHX2B); Amazon-fulfilled. 2 mm thick cardboard pieces, matte finish; reference poster included; completed puzzle 70 × 50 cm; illustrated rectangular ivory puzzle box. Category: Toys & Games > Jigsaw Puzzles. |
+| 2 | wall26 Nachtwacht canvas print | B00U1AHIZE | Nachtwacht (or The Night Watch) by Rembrandt Famous Fine Art Reproduction World Famous Painting Replica on Ped Frame Print Wood Framed - Canvas Art Wall Art - 24" x 24" | $38.49 | **In Stock.** FREE delivery Wednesday Nov 4; 30-day refund/replacement. Not Prime eligible per buybox data. | Sold and shipped by wall26 (seller ID A1ZGY3RE5LH1AU); ships from wall26; max quantity 30. Brand: wall26. 1.5" stretcher bars; Wood frame; 24"L × 24"W; Square; Landscape; Material Wood; Mounting Type Wall Mount; Paint Type Watercolor; Paper Finish Semi-Gloss; Pattern Printed; Product Style Fine Art; Theme Holidays; UPC 711717754215. Customer reviews 5.0 out of 5 stars (11 reviews). Best Sellers Rank #468,583 in Posters & Prints. |
+| 3 | Crossroads Home Decor framed print | B097RTV2JM | Crossroads Home Décor The Night's Watch by Rembrandt ... (Crossroads Home Decor brand; framed print, 14"x11" wall display) | $36.99 | **Only 14 left in stock - order soon.** FREE delivery Thursday Nov 5; 30-day refund/replacement. | Sold and shipped by Crossroads_Home_Decor (seller ID A1L7X7SELZ1Z4K); ships from Crossroads_Home_Decor. Made in USA — each print reproduced and framed to order by an American family business; arrival as museum-quality Rembrandt framed print. Bullet points describe it as a 14"x11" wall display in Barnwood, Charcoal, Black, or Walnut, with warm chiaroscuro of amber, red and deep shadow; titled in full for the militia of captain Frans Banninck Cocq; painted in 1642 by Rembrandt van Rijn; faithful to the original in the Rijksmuseum in Amsterdam. |
 
 Notes:
-- Prices and availability were read from the product detail pages themselves (not search snippets) at the time of audit.
-- Product 1 depicts a different Rembrandt painting (Return of the Prodigal Son, 1669); see the cut rationale below.
+- Prices and availability were read from the product detail pages themselves (Amazon US, ASIN lookups), not search snippets.
+- Product 1 (puzzle) is an indirect engagement with the painting rather than a direct reproduction; the listing itself notes actual colors may slightly differ from pictures due to monitor display issues.
+- Product 2 is a wood-framed canvas print; product 3 is a smaller 14×11" framed print rather than a large-format reproduction.
 
 ## 3. Audit trail
 
 - **Repository:** mcpmark-eval-liuhezi/nightwatch-merch-audit (public; initialized with README.md)
-- **Parent issue:** #22 — "Merch audit: The Night Watch" (https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit/issues/22)
+- **Parent issue:** #29 — "Merch audit: The Night Watch" (https://github.com/mcpmark-eval-liuhezi/nightwatch-merch-audit/issues/29)
 - **Sub-issues created (one per product examined):**
-  - #23 — ARTCANVAS The Return of the Prodigal Son 1669 Canvas Art Print (B07CX7N2TJ)
-  - #24 — ARTCANVAS The Apostle Paul in Prison 1627 Canvas Art Print (B07DJP87L7)
-  - #25 — MyPuzzle.com 1000-Piece Jigsaw Puzzle (B0BFVYLRCK)
-- **Product cut:** ARTCANVAS The Return of the Prodigal Son 1669 Canvas (B07CX7N2TJ, sub-issue #23) — cut from parent #22 because it depicts a *different* painting (Return of the Prodigal Son, 1669) rather than the actual Night Watch, making it the least faithful to the painting under audit. Cut rationale comment posted on issue #22.
-- **Sub-issues remaining linked under parent #22:** #24 (ARTCANVAS The Apostle Paul in Prison 1627 Canvas Art Print) and #25 (MyPuzzle.com 1000-Piece Jigsaw Puzzle). Sub-issue #23 was removed from the parent link list.
+  - #32 — Infinite Photographs The Night Watch 1000-Piece Jigsaw Puzzle (B0BMQQQ76N) - $39.99, Only 1 left in stock
+  - #33 — wall26 Nachtwacht Canvas Print 24x24 Wood Framed (B00U1AHIZE) - $38.49, In Stock
+  - #34 — Crossroads Home Decor The Night Watch Framed Print 14x11 (B097RTV2JM) - $36.99, Only 14 left in stock
+- **Product cut:** Infinite Photographs The Night Watch 1000-Piece Jigsaw Puzzle (B0BMQQQ76N) — sub-issue #32 — cut from parent #29 because availability is critically low (buy box: "Only 1 left in stock - order soon" at $39.99 from third-party seller Historic Photographs and Maps, Amazon-fulfilled), making it effectively near-unavailable beyond a single unit; as a 1000-piece puzzle it is also an indirect engagement with the painting rather than a direct reproduction, and the listing notes colors may differ from pictures due to monitor display issues. Cut rationale comment posted on issue #29.
+- **Sub-issues remaining linked under parent #29:** #33 (wall26 Nachtwacht canvas print, B00U1AHIZE, $38.49, In Stock) and #34 (Crossroads Home Decor Night Watch framed print, B097RTV2JM, $36.99, Only 14 left in stock). Sub-issue #32 was removed from the parent link list.
 - **Write-up location:** findings.md at the repo root on branch `audit-findings`, opened as PR into `main` (default branch).
